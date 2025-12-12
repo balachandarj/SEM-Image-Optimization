@@ -1,0 +1,11 @@
+{
+  "oas": "synthetic_layout.oas",
+  "cell": "TOP",
+  "px_size": 256,
+  "pad": 0.5,
+  "dpi": 300,
+  "generate_cad": false,
+  "generate_sem": true,
+  "use_color": false,
+  "output_dir": "output"
+}
