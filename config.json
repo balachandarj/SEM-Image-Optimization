@@ -1,9 +1,9 @@
 {
   "oas": "synthetic_layout.oas",
   "cell": "TOP",
-  "px_size": 256,
+  "px_size": 128,
   "pad": 0.5,
-  "dpi": 300,
+  "dpi": 128,
   "generate_cad": false,
   "generate_sem": true,
   "use_color": false,

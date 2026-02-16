@@ -212,7 +212,7 @@ def main():
             stem = f"cx{cx}_cy{cy}"
 
             if generate_cad:
-                cad_out = output_dir / f"cad_{stem}.png"
+                cad_out = output_dir/ f"cad" / f"{stem}.png"
                 render_cell(
                     cell,
                     cad_out,
@@ -226,7 +226,7 @@ def main():
                 print(f"Wrote {cad_out.resolve()} from cell '{cell_name}'")
 
             if generate_sem:
-                sem_out = output_dir / f"sem_{stem}.png"
+                sem_out = output_dir / f"sem" /f"{stem}.png"
                 render_cell(
                     cell,
                     sem_out,

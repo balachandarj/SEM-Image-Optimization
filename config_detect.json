@@ -1,0 +1,8 @@
+{
+  "cad_dir": "output/cad",
+  "sem_dir": "output/sem",
+  "out_dir": "output/diff",
+  "threshold": 1.0,
+  "std_factor": 1.2,
+  "min_size": 40
+}
